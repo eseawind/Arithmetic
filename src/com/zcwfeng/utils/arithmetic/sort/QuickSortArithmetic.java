@@ -62,7 +62,7 @@ public class QuickSortArithmetic {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		int[] pData = new int[] { 49, 38, 65, 97, 76, 13, 27 };
-		quickSort(pData, 0, pData.length - 1);
+		quickSort(pData, 0, pData.length);
 		System.out.println(Arrays.toString(pData));
 	}
 }
